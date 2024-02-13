@@ -1,0 +1,28 @@
+header{
+    height: 100px;
+    width: 100%;
+    position: sticky;
+}
+nav{
+    height: 100px;
+    display: flex;
+    background-color: aqua;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+nav img{
+    width: 200px;
+    height: 70px;
+}
+.links ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+    list-style-type: none;
+}
+.links ul li a{
+    text-decoration: none;
+    color: black;
+}
